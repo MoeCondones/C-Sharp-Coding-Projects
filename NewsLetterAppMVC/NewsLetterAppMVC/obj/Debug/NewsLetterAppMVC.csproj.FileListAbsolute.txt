@@ -77,3 +77,7 @@ C:\Users\Delegate\Desktop\C-Sharp-Projects\C-Sharp-Coding-Projects\NewsLetterApp
 C:\Users\Delegate\Desktop\C-Sharp-Projects\C-Sharp-Coding-Projects\NewsLetterAppMVC\NewsLetterAppMVC\obj\Debug\NewsLetterAppMVC.csproj.CopyComplete
 C:\Users\Delegate\Desktop\C-Sharp-Projects\C-Sharp-Coding-Projects\NewsLetterAppMVC\NewsLetterAppMVC\obj\Debug\NewsLetterAppMVC.dll
 C:\Users\Delegate\Desktop\C-Sharp-Projects\C-Sharp-Coding-Projects\NewsLetterAppMVC\NewsLetterAppMVC\obj\Debug\NewsLetterAppMVC.pdb
+C:\Users\Delegate\Desktop\C-Sharp-Projects\C-Sharp-Coding-Projects\NewsLetterAppMVC\NewsLetterAppMVC\bin\EntityFramework.dll
+C:\Users\Delegate\Desktop\C-Sharp-Projects\C-Sharp-Coding-Projects\NewsLetterAppMVC\NewsLetterAppMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\Delegate\Desktop\C-Sharp-Projects\C-Sharp-Coding-Projects\NewsLetterAppMVC\NewsLetterAppMVC\bin\EntityFramework.xml
+C:\Users\Delegate\Desktop\C-Sharp-Projects\C-Sharp-Coding-Projects\NewsLetterAppMVC\NewsLetterAppMVC\bin\EntityFramework.SqlServer.xml
