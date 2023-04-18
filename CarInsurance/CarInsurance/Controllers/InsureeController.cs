@@ -161,7 +161,7 @@ namespace CarInsurance.Controllers
             db.SaveChanges();
             return RedirectToAction("Index");
         }
-        public ActionResult Quotes()
+        public ActionResult Admin()
         {
             var quotes = from Insuree in db.Insurees
                          select new
@@ -171,7 +171,7 @@ namespace CarInsurance.Controllers
                              EmailAddress = Insuree.EmailAddress,
                              Quote = Insuree.Quote
                          };
-            return RedirectToAction("Admin");
+            return View(quotes);
         }
 
         protected override void Dispose(bool disposing)
