@@ -51,51 +51,51 @@ namespace CarInsurance.Controllers
         {
             if (ModelState.IsValid)
             {
-                double baseQuote = 50;
+                insuree.Quote = 50m;
                 var age = DateTime.Today.Year - insuree.DateOfBirth.Year;
 
 
                 if (age <= 18)
                 {
-                    baseQuote += 100;
+                    insuree.Quote += 100m;
                 }
                 else if (age > 18 && age < 26)
                 {
-                    baseQuote += 50;
+                    insuree.Quote += 50m;
                 }
                 else if (age > 25)
                 {
-                    baseQuote += 25;
+                    insuree.Quote += 25m;
                 }
 
                 if (insuree.CarYear < 2000)
                 {
-                    baseQuote += 25;
+                    insuree.Quote += 25m;
                 }
                 else if (insuree.CarYear > 2015)
                 {
-                    baseQuote += 25;
+                    insuree.Quote += 25m;
                 }
 
                 if(insuree.CarMake == "porsche".ToLower())
                 {
-                    baseQuote += 25;
+                    insuree.Quote += 25m;
                 }
                 else if (insuree.CarMake == "porsche".ToLower() && insuree.CarModel == "911 carrera.".ToLower())
                 {
-                    baseQuote += 25;
+                    insuree.Quote += 25m;
                 }
 
-                baseQuote += 10 * insuree.SpeedingTickets;
+                insuree.Quote += 10m * insuree.SpeedingTickets;
 
                 if (insuree.DUI == true)
                 {
-                    baseQuote *= 1.25;
+                    insuree.Quote *= 1.25m;
                 }
 
                 if (insuree.CoverageType == true)
                 {
-                    baseQuote *= 1.5;
+                    insuree.Quote *= 1.5m;
                 }
 
                 db.Insurees.Add(insuree);
@@ -177,7 +177,7 @@ namespace CarInsurance.Controllers
                         FirstName = quote.FirstName,
                         LastName = quote.LastName,
                         EmailAddress = quote.EmailAddress,
-                        Quote = (double)quote.Quote
+                        Quote = (decimal)quote.Quote
                     };
                     adminList.Add(admin);
                 }
