@@ -7,6 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using CarInsurance.Models;
+using CarInsurance.ViewModels;
 
 namespace CarInsurance.Controllers
 {
@@ -163,15 +164,25 @@ namespace CarInsurance.Controllers
         }
         public ActionResult Admin()
         {
-            var quotes = from Insuree in db.Insurees
-                         select new
-                         {
-                             FirstName = Insuree.FirstName,
-                             LastName = Insuree.LastName,
-                             EmailAddress = Insuree.EmailAddress,
-                             Quote = Insuree.Quote
-                         };
-            return View(quotes);
+            var adminList = new List<AdminVm>();
+            using (InsuranceEntities db = new InsuranceEntities())
+            {
+                var quotes = (from insuree in db.Insurees
+                              select new { insuree.FirstName, insuree.LastName, insuree.EmailAddress, insuree.Quote }).ToList();
+
+                foreach (var quote in quotes)
+                {
+                    var admin = new AdminVm
+                    {
+                        FirstName = quote.FirstName,
+                        LastName = quote.LastName,
+                        EmailAddress = quote.EmailAddress,
+                        Quote = (double)quote.Quote
+                    };
+                    adminList.Add(admin);
+                }
+            }
+            return View(adminList);
         }
 
         protected override void Dispose(bool disposing)

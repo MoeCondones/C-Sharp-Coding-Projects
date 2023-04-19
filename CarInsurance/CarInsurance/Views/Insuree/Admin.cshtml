@@ -1,12 +1,29 @@
-﻿
-@{
-    ViewBag.Title = "Admin";
-}
+﻿<h2>Admin</h2>
 
-<h2>Admin</h2>
-
-@using (Html.BeginForm())
-{
-
-}
-
+<div class="row-no-gutters">
+    <h4>Insuree log</h4>
+    @using (Html.BeginForm())
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email Address</th>
+                    <th>Quote</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var insuree in Model)
+                {
+                    <tr>
+                        <td>@insuree.FirstName</td>
+                        <td>@insuree.LastName</td>
+                        <td>@insuree.EmailAddress</td>
+                        <td>@insuree.Quote</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
