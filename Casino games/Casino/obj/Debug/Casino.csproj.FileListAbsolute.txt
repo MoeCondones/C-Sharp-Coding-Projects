@@ -1,0 +1,5 @@
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\Casino\obj\Debug\Casino.csproj.CoreCompileInputs.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\Casino\bin\Debug\Casino.dll
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\Casino\bin\Debug\Casino.pdb
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\Casino\obj\Debug\Casino.dll
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\Casino\obj\Debug\Casino.pdb
