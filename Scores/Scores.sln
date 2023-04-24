@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33423.256
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scores", "Scores\Scores.csproj", "{ECC43DB6-2E1C-4244-B1E0-AAB73FFC1930}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECC43DB6-2E1C-4244-B1E0-AAB73FFC1930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECC43DB6-2E1C-4244-B1E0-AAB73FFC1930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECC43DB6-2E1C-4244-B1E0-AAB73FFC1930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECC43DB6-2E1C-4244-B1E0-AAB73FFC1930}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E34E907B-98F8-417F-9398-22D7C60D2B3F}
+	EndGlobalSection
+EndGlobal
