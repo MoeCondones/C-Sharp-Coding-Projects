@@ -76,3 +76,4 @@ C:\Users\Delegate\Desktop\C-Sharp-Projects\C-Sharp-Coding-Projects\StudentMVC\St
 C:\Users\Delegate\Desktop\C-Sharp-Projects\C-Sharp-Coding-Projects\StudentMVC\StudentMVC\obj\Debug\StudentsMVC.csproj.CopyComplete
 C:\Users\Delegate\Desktop\C-Sharp-Projects\C-Sharp-Coding-Projects\StudentMVC\StudentMVC\obj\Debug\StudentMVC.dll
 C:\Users\Delegate\Desktop\C-Sharp-Projects\C-Sharp-Coding-Projects\StudentMVC\StudentMVC\obj\Debug\StudentMVC.pdb
+C:\Users\Delegate\Desktop\C-Sharp-Projects\C-Sharp-Coding-Projects\StudentMVC\StudentMVC\obj\Debug\StudentsMVC.csproj.AssemblyReference.cache

@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Casino games",
-    "\\Casino games\\BlackJack"
+    "\\CarInsurance",
+    "\\Casino games\\BlackJack",
+    "\\Scores",
+    "\\Scores\\Scores"
   ],
-  "SelectedNode": "\\Casino games\\BlackJack\\Program.cs",
+  "SelectedNode": "\\Scores\\Scores\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
