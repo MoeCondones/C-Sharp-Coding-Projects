@@ -1,0 +1,12 @@
+C:\Users\Delegate\Desktop\C-Sharp-Projects\C-Sharp-Coding-Projects\CodeFirstApp\CodeFirstApp\bin\Debug\CodeFirstApp.exe.config
+C:\Users\Delegate\Desktop\C-Sharp-Projects\C-Sharp-Coding-Projects\CodeFirstApp\CodeFirstApp\bin\Debug\CodeFirstApp.exe
+C:\Users\Delegate\Desktop\C-Sharp-Projects\C-Sharp-Coding-Projects\CodeFirstApp\CodeFirstApp\bin\Debug\CodeFirstApp.pdb
+C:\Users\Delegate\Desktop\C-Sharp-Projects\C-Sharp-Coding-Projects\CodeFirstApp\CodeFirstApp\bin\Debug\EntityFramework.dll
+C:\Users\Delegate\Desktop\C-Sharp-Projects\C-Sharp-Coding-Projects\CodeFirstApp\CodeFirstApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Delegate\Desktop\C-Sharp-Projects\C-Sharp-Coding-Projects\CodeFirstApp\CodeFirstApp\bin\Debug\EntityFramework.xml
+C:\Users\Delegate\Desktop\C-Sharp-Projects\C-Sharp-Coding-Projects\CodeFirstApp\CodeFirstApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Delegate\Desktop\C-Sharp-Projects\C-Sharp-Coding-Projects\CodeFirstApp\CodeFirstApp\obj\Debug\CodeFirstApp.csproj.AssemblyReference.cache
+C:\Users\Delegate\Desktop\C-Sharp-Projects\C-Sharp-Coding-Projects\CodeFirstApp\CodeFirstApp\obj\Debug\CodeFirstApp.csproj.CoreCompileInputs.cache
+C:\Users\Delegate\Desktop\C-Sharp-Projects\C-Sharp-Coding-Projects\CodeFirstApp\CodeFirstApp\obj\Debug\CodeFirstApp.csproj.CopyComplete
+C:\Users\Delegate\Desktop\C-Sharp-Projects\C-Sharp-Coding-Projects\CodeFirstApp\CodeFirstApp\obj\Debug\CodeFirstApp.exe
+C:\Users\Delegate\Desktop\C-Sharp-Projects\C-Sharp-Coding-Projects\CodeFirstApp\CodeFirstApp\obj\Debug\CodeFirstApp.pdb
