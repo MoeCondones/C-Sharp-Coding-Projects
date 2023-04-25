@@ -27,7 +27,7 @@
 - NewsLetterApp: A basic newsletter app that lets you sign up for a newsletter. there is also an admin page and it logs the sign ups using Entity Framework
 - CoreApp: Just a very basic ASP.NET Core application so i can get familiar with it
 - CodeFirstApp: A code-first approach application that creates a database where student data is stored
-- casino games: A Casino games folder with a working BlackJack Game. please try it ill be adding more games to it in the future
+- casino games: A Casino games folder with a working BlackJack Game where the information of the player is logged into a text file and there is an exception created for different scenarios within the game. please try it ill be adding more games to it in the future
 - CarInsurance: A car insurance app where a person inputs information about themselves to insure their car. the data is stored using Entity Framework. and there is an admin page where you can see the data the insurees input 
 
 
